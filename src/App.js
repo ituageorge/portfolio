@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
+import Portfolio from './components/portfolio';
+import AboutMe from './components/aboutMe';
+import MyMission from './components/myMission';
+import ExamTimeApp from './components/examTimeApp';
+import CashTransferApp from './components/cashTransferApp';
+import Footer from './components/footer';
+import NavFixedAtTop from './components/navAtTop';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="App h-100 overflow-hidden">
+      
+      <NavFixedAtTop />
+      <Portfolio />
+      <AboutMe />
+      <MyMission />
+      <ExamTimeApp />
+      <CashTransferApp />
+      <Footer />
+     
     </div>
   );
 }
