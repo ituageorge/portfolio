@@ -13,6 +13,7 @@ module.exports = {
         'atanas': "url('../public/images/img22/atanas-dzhingarov-1683743-unsplash.jpg')",
         'iso-republic': "url('../public/images/img22/iso-republic-colorful-programming-code.jpg')",
         'emily-finch': "url('../public/images/img22/emily-finch-1688334-unsplash.jpg')",
+        'weather-forecast':"url('../public/img/weather-forecast.png')",
       },
     },
   },
