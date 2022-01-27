@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div id='about' className="row m-5 h-100 lg:h-screen xl:grid xl:grid-cols-2 gap-4 mt-5 md:mb-5">
+    <div id='about' className="bg-blue-300 row p-5 h-100 lg:h-screen xl:grid xl:grid-cols-2 gap-4 mt-5 md:mb-5">
       <div className="text-left self-center lg:m-5 lg:h-50">
         <span className="text-4xl md:text-5xl lg:text-9xl my-2 lg:my-3 text-lime-600">about me</span>
         <p className="text-3xl my-2">Helping you reach your full potential </p>

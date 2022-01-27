@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CashTransferApp = () => {
-  return <div id='cash-transfer' className="bg-red-300 xl:grid lg:grid-cols-2">
+  return <div id='cash-transfer' className="bg-blue-300 xl:grid lg:grid-cols-2">
 
       <div className="h-screen bg-cash-transfer p-5 bg-contain bg-auto bg-no-repeat bg-center"></div>
 

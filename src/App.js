@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Portfolio from './components/portfolio';
 import AboutMe from './components/aboutMe';
 import MyMission from './components/myMission';
@@ -6,6 +6,7 @@ import ExamTimeApp from './components/examTimeApp';
 import CashTransferApp from './components/cashTransferApp';
 import Footer from './components/footer';
 import NavFixedAtTop from './components/navAtTop';
+import WeatherApp from './components/weatherApp';
 import './App.css';
 
 
@@ -19,6 +20,7 @@ function App() {
       <AboutMe />
       <MyMission />
       <ExamTimeApp />
+      <WeatherApp />
       <CashTransferApp />
       <Footer />
      

@@ -11,35 +11,34 @@ import React from 'react';
 // xl	1280px	@media (min-width: 1280px)
 // 2xl	1536px	@media (min-width: 1536px)
 
-// weather forecast app
-// // https://ituageorge.github.io/weather_forecast_react/
 
 const ExamTimeApp = () => {
   return (
     <div
       id="exam-app"
-      className="row h-100 lg:h-screen xl:grid lg:grid-cols-2 gap-4 lg:my-3"
+      className="row h-100 lg:h-screen xl:grid lg:grid-cols-2 gap-4 lg:py-3"
     >
-      <div className="text-left self-center m-4  ">
-        <span className="text-5xl my-5 text-lime-600">ExamTime App</span>
-        <p className="text-2xl my-4">
+      <div className=" text-left self-center p-4  ">
+        <span className="text-5xl py-5 text-lime-600">ExamTime App</span>
+        <p className="text-2xl py-4">
           This is an app that evaluates your understanding of a particular
           topic.
         </p>
-        <p className="text-xl lg:text-2xl my-4">
+        <p className="text-xl lg:text-2xl py-4">
           A fullstack application made with the Mongoose, MongoDb, Express,
           React, and Node (MERN) stack. This project was set up from scratch
           with webpack and babel, then designed with tailwind css.
         </p>
-        <p className="text-xl lg:text-2xl my-4">
+        <p className="text-xl lg:text-2xl py-4">
           The end-point is fully authenticated with JSON Web Token(jwt)
         </p>
-        <p className="text-xl lg:text-2xl my-4">
+        <p className="text-xl lg:text-2xl py-4">
           You need to be a registered user to use this app.
         </p>
+        <p className='text-2xl'>Exam timed link <a href="https://form-exam.herokuapp.com/#/login">https://form-exam.herokuapp.com/#/login</a></p>
       </div>
 
-      <div className="row sm:p-5 h-screen mx-5 exam-time bg-contain m-2 bg-auto bg-no-repeat bg-center"></div>
+      <div className="row sm:p-5 h-screen mx-5 bg-exam-form bg-contain m-2 bg-auto bg-no-repeat bg-center"></div>
     </div>
   );
 };
