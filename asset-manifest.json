@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.12516593.chunk.css",
-    "main.js": "/portfolio/static/js/main.17d2d7bf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.17d2d7bf.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.c058ef37.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.c058ef37.js.map",
-    "static/js/2.6371ef25.chunk.js": "/portfolio/static/js/2.6371ef25.chunk.js",
-    "static/js/2.6371ef25.chunk.js.map": "/portfolio/static/js/2.6371ef25.chunk.js.map",
-    "static/js/3.358c86c0.chunk.js": "/portfolio/static/js/3.358c86c0.chunk.js",
-    "static/js/3.358c86c0.chunk.js.map": "/portfolio/static/js/3.358c86c0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fc56420c.css",
+    "main.js": "/portfolio/static/js/main.77b57ea4.js",
+    "static/js/787.edd59a96.chunk.js": "/portfolio/static/js/787.edd59a96.chunk.js",
+    "static/media/grunge-paint-background.jpg": "/portfolio/static/media/grunge-paint-background.719082525eb68b88eb42.jpg",
+    "static/media/dark-wall-empty-room-with-plants-floor-3d-rendering.jpg": "/portfolio/static/media/dark-wall-empty-room-with-plants-floor-3d-rendering.48055c1afa41606f49db.jpg",
+    "static/media/exam-form.png": "/portfolio/static/media/exam-form.16ece4c33950d6332e2b.png",
+    "static/media/weather-forecast.png": "/portfolio/static/media/weather-forecast.68c50ff6ed4aef7ec1a1.png",
+    "static/media/cash-transferApp.png": "/portfolio/static/media/cash-transferApp.af794c7b6ef4062d4983.png",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c60e72250d4fc79941d4094a4b69e9f1.js": "/portfolio/precache-manifest.c60e72250d4fc79941d4094a4b69e9f1.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.12516593.chunk.css.map": "/portfolio/static/css/main.12516593.chunk.css.map"
-  }
+    "main.fc56420c.css.map": "/portfolio/static/css/main.fc56420c.css.map",
+    "main.77b57ea4.js.map": "/portfolio/static/js/main.77b57ea4.js.map",
+    "787.edd59a96.chunk.js.map": "/portfolio/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc56420c.css",
+    "static/js/main.77b57ea4.js"
+  ]
 }
